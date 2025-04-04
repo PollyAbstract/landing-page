@@ -7,8 +7,8 @@ import '~styles/index.css';
  * Metadata for the Polly website
  */
 export const metadata: Metadata = {
-    title: 'Polly — Wife of Pax',
-    description: 'Official Polly penguin character website',
+    title: 'Polly — Pudgy Penguins Character & Companion of Pax',
+    description: 'Meet Polly, the beloved wife of Pax and official character from Pudgy Penguins. Discover her story, explore artwork, and join the Polly Penguin community!',
     icons: {
         icon: [
             { url: '/favicon.svg', type: 'image/svg+xml' },
@@ -19,10 +19,50 @@ export const metadata: Metadata = {
         shortcut: '/favicon.ico',
     },
     appleWebApp: {
-        title: 'Polly',
+        title: 'Polly — Pudgy Penguins',
+        statusBarStyle: 'black-translucent',
+        capable: true,
     },
     manifest: '/site.webmanifest',
+
+    openGraph: {
+        title: 'Polly — Pudgy Penguins Character & Companion of Pax',
+        description: 'Explore the world of Polly — a charming character in the Pudgy Penguins universe and Pax’s beloved companion.',
+        url: 'https://pollyabstract.xyz',
+        siteName: 'Polly — Pudgy Penguins',
+        images: [
+            {
+                url: 'https://pollyabstract.xyz/og-image.png',
+                width: 1200,
+                height: 630,
+                alt: 'Polly the Penguin — Pudgy Penguins Character',
+            },
+        ],
+        type: 'website',
+    },
+
+    twitter: {
+        card: 'summary_large_image',
+        title: 'Polly — Pudgy Penguins Character',
+        description: 'Official website of Polly, Pax’s beloved companion in the Pudgy Penguins universe.',
+        site: '@PollyOnAbstract',
+        creator: '@PollyOnAbstract',
+        images: ['https://pollyabstract.xyz/og-image.png'],
+    },
+
+    authors: [{ name: 'Polly Team' }],
+    keywords: [
+        'Polly', 'Pax', 'Pudgy Penguins', 'NFT', 'Web3',
+        'Pengu', 'Polly Penguin', 'Penguin NFT', 'Companion NFT',
+        'Polly On Abstract', 'Cute NFT Character'
+    ],
+    robots: {
+        index: true,
+        follow: true,
+        nocache: false,
+    },
 };
+
 
 /**
  * Props for the RootLayout component
