@@ -1,7 +1,7 @@
 'use client';
 import type {JSX} from 'react';
-import {NavbarLogo} from './navbar/NavbarLogo';
-import {NavbarActions} from './navbar/NavbarActions';
+import {NavbarLogo} from './NavbarLogo';
+import {NavbarActions} from './NavbarActions';
 
 /**
  * Props for the Navbar component

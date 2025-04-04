@@ -1,7 +1,7 @@
-import type {Metadata} from 'next';
 import type {JSX, ReactNode} from 'react';
-import '~styles/index.css';
+import type {Metadata} from 'next';
 import { fontVariables } from '~utils/fonts';
+import '~styles/index.css';
 
 /**
  * Metadata for the Polly website
