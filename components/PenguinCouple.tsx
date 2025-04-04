@@ -1,6 +1,6 @@
 'use client';
-import Image from 'next/image';
 import type {JSX} from 'react';
+import Image from 'next/image';
 
 /**
  * Animated component displaying Pax and Polly penguins with a beating heart

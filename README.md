@@ -90,6 +90,22 @@ The project uses TypeScript path aliases for cleaner imports:
 - `pnpm build` - Build for production
 - `pnpm start` - Start production server
 - `pnpm lint` - Run ESLint
+- `pnpm docs` - Generate API documentation with TypeDoc
+- `pnpm docs:serve` - Serve documentation locally at http://localhost:8080
+
+## Documentation
+
+The project uses TypeDoc to generate API documentation:
+
+```bash
+# Generate documentation
+pnpm docs
+
+# Serve documentation locally
+pnpm docs:serve
+```
+
+The documentation will be available at http://localhost:8080 when served locally.
 
 ## Deployment
 
