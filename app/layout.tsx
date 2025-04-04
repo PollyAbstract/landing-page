@@ -45,8 +45,8 @@ export const metadata: Metadata = {
         card: 'summary_large_image',
         title: 'Polly — Pudgy Penguins Character',
         description: 'Official website of Polly, Pax’s beloved companion in the Pudgy Penguins universe.',
-        site: '@PollyOnAbstract',
-        creator: '@PollyOnAbstract',
+        site: '@PollyAbstract',
+        creator: '@PollyAbstract',
         images: ['https://pollyabstract.xyz/og-image.png'],
     },
 
