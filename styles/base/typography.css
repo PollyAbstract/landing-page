@@ -1,0 +1,21 @@
+@layer base {
+  h1, h2, h3, h4, h5, h6, button {
+    font-family: var(--font-tt-trailers);
+    font-weight: 800;
+  }
+
+  body {
+    font-family: var(--font-fobble);
+  }
+}
+
+@layer utilities {
+  .font-tt-trailers {
+    font-family: var(--font-tt-trailers) !important;
+    font-weight: 800 !important;
+  }
+  
+  .font-fobble {
+    font-family: var(--font-fobble) !important;
+  }
+}

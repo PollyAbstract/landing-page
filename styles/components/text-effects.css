@@ -1,0 +1,24 @@
+@layer utilities {
+  .text-stroke {
+    -webkit-text-stroke: 4px #000000;
+    paint-order: stroke fill;
+  }
+
+  .text-shadow-drop {
+    text-shadow: -6px 4px 0 rgba(0, 0, 0, 1);
+  }
+  
+  /* Medium devices (tablets) */
+  @media (min-width: 768px) {
+    .text-shadow-drop {
+      text-shadow: -8px 8px 0 rgba(0, 0, 0, 1);
+    }
+  }
+  
+  /* Large devices (desktops) */
+  @media (min-width: 1200px) {
+    .text-shadow-drop {
+      text-shadow: -10px 10px 0 rgba(0, 0, 0, 1);
+    }
+  }
+}

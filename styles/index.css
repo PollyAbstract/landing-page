@@ -1,0 +1,14 @@
+@import 'tailwindcss';
+
+/* Import base styles */
+@import './base/variables.css';
+@import './base/reset.css';
+@import './base/typography.css';
+
+/* Import component styles */
+@import './components/buttons.css';
+@import './components/text-effects.css';
+
+/* Import animations */
+@import './animations/heart.css';
+@import './animations/penguins.css';

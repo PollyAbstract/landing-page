@@ -1,0 +1,19 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+  "entryPoints": [
+    "components/index.ts"
+  ],
+  "out": "docs",
+  "name": "Polly Abstract Website",
+  "entryPointStrategy": "expand",
+  "excludePrivate": true,
+  "excludeProtected": true,
+  "excludeInternal": true,
+  "excludeNotDocumented": false,
+  "includeVersion": false,
+  "exclude": ["**/.next/**/*"],
+  "sort": ["source-order"],
+  "categorizeByGroup": true,
+  "defaultCategory": "Miscellaneous",
+  "plugin": ["typedoc-plugin-mark-react-functional-components"]
+}

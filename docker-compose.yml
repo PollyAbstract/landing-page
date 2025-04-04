@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    restart: always
+    environment:
+      - NODE_ENV=production
+      - NEXT_TELEMETRY_DISABLED=1
+    # For local development, uncomment the following lines to mount source code
+    # volumes:
+    #   - ./:/app
+    #   - /app/node_modules
+    #   - /app/.next

@@ -1,0 +1,45 @@
+@layer utilities {
+  /* Animation for left penguin coming from bottom left */
+  .slide-left {
+    animation: slideLeft 2s ease-out forwards;
+    will-change: transform;
+    transform: translate(50%, 100%);
+  }
+
+  @keyframes slideLeft {
+    0% {
+      transform: translate(50%, 100%);
+    }
+    70% {
+      transform: translate(10%, 55%);
+    }
+    85% {
+      transform: translate(0%, 47%);
+    }
+    100% {
+      transform: translate(0%, 50%);
+    }
+  }
+
+  /* Animation for right penguin coming from bottom right */
+  .slide-right {
+    animation: slideRight 2s ease-out forwards;
+    will-change: transform;
+    transform: translate(-50%, 100%);
+  }
+
+  @keyframes slideRight {
+    0% {
+      transform: translate(-50%, 100%);
+    }
+    70% {
+      transform: translate(-10%, 55%);
+    }
+    85% {
+      transform: translate(0%, 47%);
+    }
+    100% {
+      transform: translate(0%, 50%);
+    }
+  }
+}
